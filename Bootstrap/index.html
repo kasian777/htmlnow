@@ -10,108 +10,518 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <link rel="style" href="ssc/style.css">
-
-
-    
+    <link rel="stylesheet" href="ssc/style.css">
+    <link rel="stylesheet" href="ssc/media.css">
 </head>
 <body>
 <div class="header">
     <div class="container">
+        <div>
+            <nav class="navbar navbar-expand-xl navbar-light ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/Logo%204.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarWithDropdown " aria-controls="navbarWithDropdown"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation ">
+                        <span class="navbar-toggler-icon  "></span>
+                    </button>
+                    <div class="navbar-collaps">
+                        <div class="collapse navbar-collapse  show" id="navbarWithDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Über Uns</a>
+                                </li>
+                                <li class="nav-item dropdown  ">
+                                    <a class=" nav-link dropdown-toggle " href="#" id="Produkte"
 
-        <nav class="navbar navbar-expand-md navbar-light ">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="img/Logo%204.png" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarWithDropdown" aria-controls="navbarWithDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collaps">
-                    <div class="collapse navbar-collapse show" id="navbarWithDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Über Uns</a>
-                            </li>
-                            <li class="nav-item dropdown rad ">
-                                <a class=" nav-link dropdown-toggle " href="#" id="Produkte"
+                                       role="button"
+                                       data-bs-toggle="dropdown" aria-expanded="false"
+                                       style="color: #2E75FF; border: 2px solid #EAEDF5; border-radius: 8px">
+                                        Produkte
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="" role="button"
+                                       data-bs-toggle="dropdown" aria-expanded="false">
+                                        Peripherietechnik
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                       role="button"
+                                       data-bs-toggle="dropdown" aria-expanded="false">
 
-                                   role="button"
-                                   data-bs-toggle="dropdown1" aria-expanded="false"
-                                   style="color: #2E75FF; border: 2px solid #EAEDF5; border-radius: 8px">
-                                    Produkte
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="" role="button"
-                                   data-bs-toggle="dropdown" aria-expanded="false">
-                                    Peripherietechnik
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                   data-bs-toggle="dropdown" aria-expanded="false">
-
-                                    Dienstleistungen
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Klimatechnik</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Kontakt</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Presse</a>
-                            </li>
-                        </ul>
+                                        Dienstleistungen
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Klimatechnik</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Kontakt</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Presse</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </nav>
-
+            </nav>
+        </div>
     </div>
 
 </div>
-<div class="body">
+
+<div class="container new">
+    <div class="row">
+        <div class="col-xl-5 want">
+            <h1 class="first-block-text">Luftkondensierte
+                Kältemaschinen
+                & Kaltwassersätze</h1>
+            <div><img class="pt10" src="img/Line%203.png" alt="Line"></div>
+            <p class="text2 pt10">Aufgrund der kompakten Bauart werden platzsparende luftkondensierte
+                Kompressionskältemaschinen
+                (umgangsspr. „Kaltwassersätze“) vielseitig zur
+                Prozesskühlung und Gebäudeklimatisierung eingesetzt.
+            </p>
+            <img class="pt10" src="img/Line%203.png" alt="Line">
+
+        </div>
+        <div class="col-xl-7  ">
+            <img src="img/Air%20Colled.png" alt="7">
+        </div>
+
+    </div>
+</div>
+
+<div class="mobile">
+
+    <div>
+        <h1 class="first-block-text">Luftkondensierte
+            Kältemaschinen
+            & Kaltwassersätze</h1>
+    </div>
+    <img class=" line " src="img/Line%203.png" alt="Line">
+    <div class="imgmin">
+
+        <img src="img/Air%20Colled.png" alt="7">
+    </div>
+
+    <div><p class="text2 pt10">Aufgrund der kompakten Bauart werden platzsparende luftkondensierte
+        Kompressionskältemaschinen
+        (umgangsspr. „Kaltwassersätze“) vielseitig zur
+        Prozesskühlung und Gebäudeklimatisierung eingesetzt.
+    </p></div>
+    <img src="img/img.png" alt="">
+    <h2 class="right2 ">ENERGIEEFFIZIENZ IM FOKUS</h2>
+    <p class="text0 "> Bei der Anschaffung sollte deshalb besonders auf <strong> energieeffiziente Systeme</strong>
+        geachtet werden, denn die
+        Betriebskosten der Anlage überschreiten
+        erfahrungsgemäß über die Lebensdauer hinweg die einmaligen Anschaffungskosten um ein vielfaches.
+    </p>
+    <p class="text0 ">Insofern sind die Themen Kompressortechnik und Einsatz von Freikühlung von
+        besonderer Bedeutung,
+        sowie
+        Steuer- und Regelungstechnik besonders wichtig.</p>
+    <div class="imgmin  "><img src="img/asv4sabu%20.png" alt="asv"></div>
+
+    <div class="third1">
+        <p class="text12 "> MODERNSTE STANDARDS </p>
+        <p class="text5">Aktuelle Richtlinien und Verordnungen bezüglich des Kältemittel Phase-Downs müssen
+            berücksichtigt werden. Der langfristige Einsatz des Kältemittels muss sowohl nach ökonomischen
+            als
+            auch strategischen Gesichtspunkten entschieden werden.</p>
+
+        <p class="text5"> Alle unsere Kältemaschinen entsprechen dem modernsten Stand der Technik und werden
+            in
+            den
+            unterschiedlichsten Branchen eingesetzt. Unser Angebot umfasst ein breites Sortiment an
+            natürlichen und frigenen Kältemitteln,
+            die den aktuellsten Normen und Verordnungen entsprechen.</p>
+        <div class="  hot   "><img class="hot" src="img/IconHotToCold%20222.png" alt="HotToCold"></div>
+
+    </div>
+    <p class="right2">Unsere Spezialität besteht aus unseren Kaltwassersätzen mit integrierter
+        Freikühleinheit.</p>
+    <p class="left"> Doppelkanal Mikrochannel Wärmetauscher kühlen das Prozesswasser energiesparend über ambiente
+        Umgebungsluft.
+    </p>
+    <p class="left "><strong>
+        Nur bei heißen Außentemperaturen erfolgt die Umschaltung auf Kompressionskälteerzeugung. Diese
+        Maximierung der Freikühlzeit erzielt größtmögliche Kosteneinsparungen</strong>
+        <br> auch bei kleinen Nennleistungen.</p>
+
+</div>
+
+<div class="second">
     <div class="container ">
-        <div class="row">
-            <div class="col-md-5 want">
-                <h1 class="first-block-text">Luftkondensierte
-                    Kältemaschinen
-                    & Kaltwassersätze</h1>
-                <p class="first-block-text">Aufgrund der kompakten Bauart werden platzsparende luftkondensierte
-                    Kompressionskältemaschinen
-                    (umgangsspr. „Kaltwassersätze“) vielseitig zur
-                    Prozesskühlung und Gebäudeklimatisierung eingesetzt.
+        <div class="row new2">
+            <div class="col-xl-5 ">
+                <img src="img/img.png" alt="">
+            </div>
+            <div class=" col-xl-7 ">
+                <h2 class="right2 padlef">ENERGIEEFFIZIENZ IM FOKUS</h2>
+                <p class="text3 pt10"> Bei der Anschaffung sollte deshalb besonders auf <span class="text2"> energieeffiziente Systeme</span>
+                    geachtet werden, denn die
+                    Betriebskosten der Anlage überschreiten
+                    erfahrungsgemäß über die Lebensdauer hinweg die einmaligen Anschaffungskosten um ein vielfaches.
                 </p>
+                <p class="text3 pt10">Insofern sind die Themen Kompressortechnik und Einsatz von Freikühlung von
+                    besonderer Bedeutung,
+                    sowie
+                    Steuer- und Regelungstechnik besonders wichtig.</p>
             </div>
-            <div class="col-md-7">
-
-                <img src="img/Air%20Colled.png" alt="7">
-            </div>
-
         </div>
     </div>
 </div>
+<div class="thir">
+    <div class="container ">
+        <div class="row third ">
+            <div class=" col-xl-5 "><img src="img/asv4sabu%20.png" alt="asv"></div>
+            <div class=" col-xl-7  pr10 ">
+                <p class="text4 pt10 "> MODERNSTE STANDARDS</p>
+                <p class="text5">Aktuelle Richtlinien und Verordnungen bezüglich des Kältemittel Phase-Downs müssen
+                    berücksichtigt werden. Der langfristige Einsatz des Kältemittels muss sowohl nach ökonomischen
+                    als
+                    auch strategischen Gesichtspunkten entschieden werden.</p>
 
+                <p class="text5"> Alle unsere Kältemaschinen entsprechen dem modernsten Stand der Technik und werden
+                    in
+                    den
+                    unterschiedlichsten Branchen eingesetzt. Unser Angebot umfasst ein breites Sortiment an
+                    natürlichen und frigenen Kältemitteln,
+                    die den aktuellsten Normen und Verordnungen entsprechen.</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="four">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 pt100 ">
+                <p class="right2">Unsere Spezialität besteht aus unseren Kaltwassersätzen mit integrierter
+                    Freikühleinheit.</p>
+                <p> Doppelkanal Mikrochannel Wärmetauscher kühlen das Prozesswasser energiesparend über ambiente
+                    Umgebungsluft.
+                </p>
+                <p class=""><strong>
+                    Nur bei heißen Außentemperaturen erfolgt die Umschaltung auf Kompressionskälteerzeugung. Diese
+                    Maximierung der Freikühlzeit erzielt größtmögliche Kosteneinsparungen</strong>
+                    <br> auch bei kleinen Nennleistungen.</p>
+            </div>
+            <div class="col-xl-8  foure  "><img src="img/IconHotToCold%2022.png" alt="HotToCold"></div>
+        </div>
+    </div>
+</div>
+<div class="five">
+    <div class="conteiner">
+        <div class="text6 pt100 ">IHRE VORTEILE</div>
+        <div class="xx  pt100">
+            <div class=" ">
+                <div class="flx sab text7">
+                    <div class=" card">
+                        <div class="row g-0">
+                            <div class="col-5 col-sm-4 xxx">
+                                <img src="img/11.png" class="img-fluid" alt="card-horizontal-image">
+                            </div>
+                            <div class="col-7 col-sm-8 xxx">
+                                <div class="card-body">
+                                    <h5 class="card-title">Geringe Stellfläche</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flx sab text7">
+                    <div class=" card">
+                        <div class="row g-0">
+                            <div class="col-5 col-sm-4 xxx">
+                                <img src="img/12.png" class="img-fluid" alt="card-horizontal-image">
+                            </div>
+                            <div class="col-7 col-sm-8 xxx">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mit und ohne integrierter Freikühlung</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flx sab text7">
+                    <div class=" card">
+                        <div class="row g-0">
+                            <div class="col-5 col-sm-4 xxx">
+                                <img src="img/13.png" class="img-fluid" alt="card-horizontal-image">
+                            </div>
+                            <div class="col-7 col-sm-8 xxx">
+                                <div class="card-body">
+                                    <h5 class="card-title">Für Außentemperaturen bis +55°C</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flx sab text7">
+                    <div class=" card">
+                        <div class="row g-0">
+                            <div class="col-5 col-sm-4 xxx">
+                                <img src="img/41.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-7 col-sm-8 xxx">
+                                <div class="card-body">
+                                    <h5 class="card-title">Erhöhte Betriebssicherheit</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" ">
+                <div class="flx sab text7">
+                    <div class=" card">
+                        <div class="row g-0">
+                            <div class="col-5 col-sm-3 xxx">
+                                <img src="img/21.png" class="img-fluid" alt="card-horizontal-image">
+                            </div>
+                            <div class="col-7 col-sm-9 xxx">
+                                <div class="card-body">
+                                    <h5 class="card-title">Für Außen- und Innenaufstellung erhältlich</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flx sab text7">
+                    <div class=" card">
+                        <div class="row g-0">
+                            <div class="col-5 col-sm-4 xxx">
+                                <img src="img/22.png" class="img-fluid" alt="card-horizontal-image">
+                            </div>
+                            <div class="col-7 col-sm-8 xxx">
+                                <div class="card-body">
+                                    <h5 class="card-title">Betriebsbereit bei Anlieferung</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flx sab text7">
+                    <div class=" card">
+                        <div class="row g-0">
+                            <div class="col-5 col-sm-4 xxx">
+                                <img src="img/23.png" class="img-fluid" alt="card-horizontal-image">
+                            </div>
+                            <div class="col-7 col-sm-8 xxx">
+                                <div class="card-body">
+                                    <h5 class="card-title">Automatische Freikühlschaltung für verringerten
+                                        Energieverbrauch</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" ">
+                <div class="flx sab text7">
+                    <div class=" card">
+                        <div class="row g-0">
+                            <div class="col-5 col-sm-4 xxx">
+                                <img src="img/31.png" class="img-fluid" alt="card-horizontal-image">
+                            </div>
+                            <div class="col-7 col-sm-8 xxx">
+                                <div class="card-body">
+                                    <h5 class="card-title">Robustes Gehäuse für Außenaufstellung</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flx sab text7">
+                    <div class=" card">
+                        <div class="row g-0">
+                            <div class="col-5 col-sm-4 xxx">
+                                <img src="img/32.png" class="img-fluid" alt="card-horizontal-image">
+                            </div>
+                            <div class="col-7 col-sm-8 xxx">
+                                <div class="card-body">
+                                    <h5 class="card-title">Geringe Schallemissionen</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flx sab text7">
+                    <div class=" card">
+                        <div class="row g-0">
+                            <div class="col-5 col-sm-4 xxx">
+                                <img src="img/33.png" class="img-fluid" alt="card-horizontal-image">
+                            </div>
+                            <div class="col-7 col-sm-8 xxx">
+                                <div class="card-body">
+                                    <h5 class="card-title">Wetterfest und Langlebig</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+<div class="six">
+    <div class="container">
+        <h2 class="text6 pt100">HAUPTMERKMALE</h2>
+        <div class="xx pt100">
+            <img src="img/txt1.png" alt="">
+            <img src="img/txt2.png" alt="">
+        </div>
+    </div>
+</div>
+<div class="seven">
+    <div class="text6 pt100"> BILDER</div>
+
+    <div class="container slay ">
+
+        <div class="pt100  ">
+            <div id="carouselDark" class=" slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselDark" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselDark" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselDark" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/slad.png" class="d-block w-100" alt="Slide 1">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h5></h5>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/slad.png" class="d-block w-100" alt="Slide 2">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h5></h5>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/slad.png" class="d-block w-100" alt="Slide 3">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h5></h5>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="container xx aa pt100">
+    <div class="botv zz"><img src="img/left.png" alt=""></div>
+    <div class="botv  zz"><img src="img/right.png" alt=""></div>
+    <div class="botv "><img src="img/gr3.png" alt=""></div>
+    <div class="botv zz "></div>
+
+</div>
+<div class="eight">
+    <h1 class="container xx pt10 text6 ">
+        BESUCHER DIESER SEITE SUCHTEN AUCH OFT NACH:
+    </h1>
+    <div class="pt10  ">
+        <div class="xx ">
+            <div class="boxbl  text8">GLYKOLWANNEN</div>
+            <div class="boxbl text8">WASSERAUFBEREITUNG</div>
+            <div class="boxbl text8">ROHRLEITUNGSBAU</div>
+        </div>
+        <div class="xx">
+            <div class="boxbl text8">Wärmemengenmessungen</div>
+            <div class="boxbl text8">ANLAGELEASING</div>
+            <div class="boxbl1 text8"></div>
+        </div>
+    </div>
+</div>
+<div class="ten">
+    <hr class="pt100">
+    <div class="xx pt100">
+      <div class="hr">  <hr></div>
+        <div class="right2 pt100 ">Jetzt Termin vereinbaren!</div>
+        <div class="bloktext pd"><p>Gerne stehen wir Ihnen für eine individuelle Beratung telefonisch und vor Ort
+            zur
+            Verfügung und freuen
+            uns über Ihre Kontaktaufnahme. Sprechen Sie uns an!</p>
+
+            <p>Fragen Sie nach einem Rückruf oder kontaktieren Sie uns unter: <span class="text10">info@elsasser-technik.de</span>
+            </p>
+            <div class=""><img src="img/btn.png" alt="df"></div>
+
+        </div>
+        <div><img class="pt100" src="img/Logo3black%203.png " alt=""></div>
+    </div>
+    <hr class="pt100">
+</div>
+<div class="xx ">
+    <div class="pd">
+        <div>Elsässer Kältetechnik
+
+        </div>
+        <div>Königsallee 14
+            4
+        </div>
+        <div>
+            40212 Düsseldorf
+        </div>
+    </div>
+    <div class="pd">
+        <div>Kontakt
+        </div>
+        <div>Telefon: <strong>
+            +49 (0) 211 9232 3052 </strong>
+        </div>
+        <div>
+            E-Mail: <span class="text10">info@elsasser-technik.de</span>
+        </div>
+    </div>
+    <div class="pd">
+        <div>Shortlinks
+        </div>
+        <div>Kontakt
+        </div>
+        <div>Rückruf vereinbaren</div>
+    </div>
+    <div class="pd">
+        <div>Impressum
+        </div>
+        <div>Datenschutz</div>
+    </div>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
