@@ -732,6 +732,8 @@
 .ptop35 {
     padding-top: 35px;
 }
+.ptop7 {
+    padding-top: 7px;}
 
 .ptop10 {
     padding-top: 10px;
@@ -1099,3 +1101,14 @@
     padding-right: 140px;
     align-items: center;
 }
+.header-menu-top-mobie {
+
+    display: none;
+}
+.wraper-mobile{
+    /*display: none;*/
+}
+.wraper-mobile-white{
+    /*display: none;*/
+}
+

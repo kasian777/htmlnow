@@ -1,0 +1,43 @@
+@media screen and (max-width: 329px) {
+    .header-menu-top {
+        /*display: none;*/
+    }
+    .hader-menu-center{
+        /*display: none;*/
+    }
+.lok{ display: none;
+
+}
+    .wraper-mobile {
+        width: 329px;
+         /*height: 34px;*/
+        background: #0C1A2A;
+        margin: 0 auto;
+    }
+
+    .wraper-mobile-white {
+        width: 329px;
+        /*height: 34px;*/
+        background: #FFFFFF;
+        margin: 0 auto;
+    }
+
+
+    .text2 {
+        height: 10px;
+        /*width: 54.22px;*/
+        font-size: 20px;
+        line-height: 9px;
+    }
+
+    .text3 {
+        font-size: 9px;
+        line-height: 9px;
+        width: 133px;
+        height: 22px;
+    }
+
+    .text5 {
+
+    }
+}
